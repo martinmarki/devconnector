@@ -1,0 +1,7 @@
+{
+    "mongoURI": "mongodb+srv://martin:kellOgeM7@cluster0-ruurc.mongodb.net/Cluster0?retryWrites=true&w=majority",
+    "jwtSecret": "mysecrettoken",
+    "githubClientId": "aac0e8b2c6e5f30eb471",
+    "githubSecret": "4b6e21b6275a1866d2459128432b6d1fcb9850ed"
+  }
+  
