@@ -8,11 +8,12 @@ Based on [Udemy course](https://www.udemy.com/course/mern-stack-front-to-back/)
 
 ## Functionality
 
-Publicly available:
+**Publicly available:**
 - Sign up and sign in
 - List of all registered developers
 - Profiles of each developer
-Privately available:
+
+**Privately available:**
 - Personal dashboard (experiences and education)
 - Edit profile view
 - Adding experience view
