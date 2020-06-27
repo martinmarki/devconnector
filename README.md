@@ -2,7 +2,11 @@
 
 Full-Stack demo application built on the MERN stack for connecting developers that allows to create and edit profiles, experience, posts and comments. The purpose of this project was to becoming slightly familiar with React.
 
-# Functionality
+Live demo is [here](https://hidden-sea-08460.herokuapp.com/)
+
+Based on [Udemy course](https://www.udemy.com/course/mern-stack-front-to-back/)
+
+## Functionality
 
 Publicly available:
 - Sign up and sign in
@@ -18,7 +22,7 @@ Privately available:
 - Like and dislike post
 - Comment/discuss post
 
-# Tech Stack
+## Tech Stack
 
 - NodeJS - Backend
 - ExpressJS - Web Application Framework
@@ -28,11 +32,6 @@ Privately available:
 - Heroku - Deployment
 - Git - Version Control
 
-# Testing
+## Testing
 
 - Postman
-
-
-Live demo is [here](https://hidden-sea-08460.herokuapp.com/)
-
-Based on [udemy course](https://www.udemy.com/course/mern-stack-front-to-back/)
