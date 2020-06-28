@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Moment from 'react-moment';
 import { connect } from 'react-redux';
-import {deleteExperience} from '../../actions/profile';
+import { deleteExperience } from '../../actions/profile';
 
 const Experience = ({ experience, deleteExperience }) => {
   const experiences = experience.map((exp) => (
@@ -18,14 +18,19 @@ const Experience = ({ experience, deleteExperience }) => {
         )}
       </td>
       <td>
-        <button className='btn btn-danger' onClick={() => deleteExperience(exp._id)}>Delete</button>
+        <button
+          className='btn btn-danger'
+          onClick={() => deleteExperience(exp._id)}
+        >
+          Delete
+        </button>
       </td>
     </tr>
   ));
 
   return (
     <Fragment>
-      <h2 className='my-2'>Experience Credentials</h2>
+      <h2 className='my-2'>Experience Details</h2>
       <table className='table'>
         <thead>
           <tr>
@@ -42,8 +47,8 @@ const Experience = ({ experience, deleteExperience }) => {
 };
 
 Experience.propTypes = {
-    experience: PropTypes.array.isRequired,
-    deleteExperience: PropTypes.func.isRequired,
+  experience: PropTypes.array.isRequired,
+  deleteExperience: PropTypes.func.isRequired,
 };
 
-export default connect(null, {deleteExperience})(Experience);
+export default connect(null, { deleteExperience })(Experience);
